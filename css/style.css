@@ -1,0 +1,41 @@
+form{
+    width: 26%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid rgb(24, 92, 24);
+}
+
+div{
+    margin-bottom: 20px;
+}
+
+span{
+    display: inline-block;
+    width: 30%;
+}
+
+input[type = "text"]{
+    width: 66%;
+}
+
+textarea,
+input{
+    border: 1px solid gray;
+}
+
+.invalid_user_id,
+.invalid_password,
+.invalid_name,
+.empty_error_country,
+.invalid_code,
+.invalid_email,
+.invalid_name,
+.empty_error_languege{
+    font-size: 11px;
+    color: red;
+    text-align: end;
+}
+
+button{
+    width: 30%;
+}
