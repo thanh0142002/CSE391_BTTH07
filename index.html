@@ -4,68 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <title>BTTH_07</title>
 </head>
 <body>
-    <main>
-        <form action="">
-            <div>
-                <span>User id:</span> <input type="text" class="user" required>
-                <div class="invalid_user_id"></div>
-            </div>
-            <div>
-                <span>Password:</span> <input type="text" class="password" required>
-                <div class="invalid_password"></div>
-            </div>
-            <div>
-                <span>Name:</span> <input type="text" class="name" required>
-                <div class="invalid_name"></div>
-            </div>
-            <div>
-                <span>Address:</span> <input type="text" class="address">
-            </div>
-            <div>
-                <span>Country:</span>
-                <select name="" class="country" required>
-                    <option value="">(Please select a country)</option>
-                    <option value="a">Nhật Bản</option>
-                    <option value="b">Việt Nam</option>
-                </select>
-            </div>
-            <div>
-                <span>ZIP Code:</span>
-                <input type="text" class="code" required> 
-                <div class="invalid_code"></div>
-            </div>
-            <div>
-                <span>Email:</span>
-                 <input type="text" class="email" required>
-                <div class="invalid_email"></div>
-            </div>
-            <div>
-                <span>Sex:</span>
-                <input type="radio" name="chon" required> Male
-                <input type="radio" name="chon" required> Female
-                
-            </div>
-            <div>
-                <span>Language:</span>
-                <input type="checkbox" class="checkbox"> English
-                <input type="checkbox" class="checkbox"> Non English
-                
-            </div>
-            <div>
-                <span>About:</span>
-                <textarea name="" cols="30" rows="10"></textarea>
-            </div>
-            <div>
-                <button type="submit">Submit</button>
-            </div>
-            
-        </form>
-    </main>
-    
+    <h1>BTTH_07_Nhóm 14</h1>
+    <form action="">
+        <div class="cv">
+        User id: <input type="text" name="txtUser" id="txtUser">
+        <span id="userError"></span>
+        <br></br>
+        Pass word: <input type="text" name="txtPass" id="txtPass">
+        <span id="passError"></span>
+        <br></br>
+        Name: <input type="text" name="txtName" id="txtName">
+        <span id="nameError"></span>
+        <br></br>
+        Address: <input type="text" name="txtAddress" id="txtAddress">
+        <span id="addressError"></span>
+        <br></br>
+        Country: <select>
+            <option>(Please select a country)</option>
+            <option>VietNam</option>
+            <option>USA</option>
+            <option>Russia</option>
+            <option>China</option>
+            <option>ThaiLand</option>
+        </select>
+        <br></br>
+        Zip code: <input type="text" name="txtZip" id="txtZip">
+        <span id="zipError"></span>
+        <br></br>
+        Email: <input type="text" name="txtEmail" id="txtEmail">
+        <span id="emailError"></span>
+        <br></br>
+        <label for="fname">Sex:</label>
+        <input type="radio" name="Sex" id="Sex">
+        <span >Male</span>
+        <input type="radio" name="Sex" id="Sex">
+        <span >Female</span>
+        <br></br>
+        <label for="fname">Language:</label>
+        <input type="radio" name="Language" id="Language">
+        <span >English</span>
+        <input type="radio" name="Language" id="Language">
+        <span >Non English</span>
+        <br></br>
+        About: <textarea class="message"></textarea>
+        <br></br>
+        <button type="submit" id="btnCheck">Submit</button>
+        </div>
+    </form>
     <script src="js/main.js"></script>
 </body>
 </html>
