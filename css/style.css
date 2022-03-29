@@ -1,41 +1,47 @@
 form{
-    width: 26%;
-    margin: 0 auto;
-    padding: 10px;
-    border: 1px solid rgb(24, 92, 24);
+    padding-left: 37%;
+    height: 500px;
+    width: 500px;
+    background-color: white;
+}
+.cv {
+    padding: 15px;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: goldenrod;
+    text-align: center;
+    
+}
+h1{
+    text-align: center;
+}
+#txtUser {
+    margin-left: 18px;
+    
+}
+#txtName {
+    margin-left: 27px;
+}
+#txtAddress {
+    margin-left: 13px;
+}
+select {
+    margin-left: 13px;
+}
+#txtZip {
+    margin-left: 8px;
+}
+#txtEmail {
+    margin-left: 26px;
 }
 
-div{
-    margin-bottom: 20px;
-}
-
-span{
-    display: inline-block;
-    width: 30%;
-}
-
-input[type = "text"]{
-    width: 66%;
-}
-
-textarea,
-input{
-    border: 1px solid gray;
-}
-
-.invalid_user_id,
-.invalid_password,
-.invalid_name,
-.empty_error_country,
-.invalid_code,
-.invalid_email,
-.invalid_name,
-.empty_error_languege{
-    font-size: 11px;
-    color: red;
-    text-align: end;
-}
-
-button{
-    width: 30%;
-}
+textarea {
+    height: 150px;
+    padding: 12px 0px;
+    margin-left: 25px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }
